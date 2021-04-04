@@ -47,7 +47,7 @@ export default class Calculator extends Component {
                     values[0] = values[0] / values[1];
                     break;
                 case '*':
-                    values[0] = values[0] + values[1];
+                    values[0] = values[0] * values[1];
                     break;
                 default:
             }
